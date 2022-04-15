@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<ScrollObserver>
 			<Component {...pageProps} />
-		</ScrollObserver>		
+		</ScrollObserver>
 	)
 }
 

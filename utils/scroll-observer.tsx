@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react'
 
 interface ScrollValue {
     scrollY: number
@@ -21,9 +21,9 @@ const ScrollObserver: React.FC = ({ children }) => {
     
     return (
         <ScrollContext.Provider value={{ scrollY }}>
-        {children}
+            {children}
         </ScrollContext.Provider>
-        )
+    )
 }
     
 export default ScrollObserver

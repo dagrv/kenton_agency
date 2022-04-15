@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
   background: black;
   color: #FFF;
-  padding: 0;
-  margin: 0;
   font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.1;
   letter-spacing: 0em;

@@ -1,8 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Background from '../components/background'
-import AboutUs from '../components/about-us'
+import Masthead from '../components/masthead'
+import AboutUs from '../components/aboutus'
+import Skills from '../components/skills'
+import Works from '../components/works'
 
 const Home: NextPage = () => {
 	return (
@@ -13,9 +15,10 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Background />
-
+			<Masthead />
 			<AboutUs />
+			<Skills />
+			<Works />
 		</div>
 	)
 }
